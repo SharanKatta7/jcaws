@@ -8,7 +8,7 @@ public class Demo2Test {
 	public void test() {
 		Demo2 palin=new Demo2();
 		System.out.println(palin.palindromeCheck("hello"));
-		assertEquals(true,palin.palindromeCheck("hello"));
+		assertEquals(false,palin.palindromeCheck("hello"));
 		
 	}
 
